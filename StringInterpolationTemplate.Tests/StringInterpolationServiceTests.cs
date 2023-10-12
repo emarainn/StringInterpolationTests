@@ -6,11 +6,9 @@ using StringInterpolationTemplate.Utils;
 using Xunit;
 
 namespace StringInterpolationTemplate.Tests;
-
 public class StringInterpolationServiceTests
 {
     private readonly StringInterpolationService _service;
-
     public StringInterpolationServiceTests()
     {
         Mock<ISystemDate> mockDate = new();
